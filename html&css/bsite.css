@@ -1,0 +1,252 @@
+
+	
+.posterbig a:hover{
+	color: white;
+	font-weight: 600;
+	/*background-color: green;*/
+	text-decoration: none;
+
+
+}
+.posterbig a{
+	margin-top: 23px;
+
+}
+.cn{
+	color: white;
+}
+
+ .posterbig .logo a{
+	
+	color: whitesmoke;
+	font-family: Impact;
+	font-size: 35px;
+	/*margin-top: -9px;
+	margin-left: -5px;*/
+
+}
+.cn .logo1{
+	font-size: 90px;
+}
+
+
+
+.posterbig{
+	/*background-image: url('../images/thar3.jpg')*/
+	/*background-image: url('../images/thar.jpg');*/
+	background-image: url('../images/thar.webp');
+    height:650px;
+    
+
+	
+}
+#logo1{
+	color: #0096FF;
+
+}
+/*@keyframes poster{
+10%{background-image: url('../images/thar2re.jpg');}
+30%{background-image: url('../images/thar3.jpg');}
+100%{background-image: url('../images/thar.webp');}
+}*/
+.posterbig a{
+	color: gray;
+	font-size: 18px;
+	font-weight: 600;
+
+
+
+
+}
+.jumbotron{
+	background-color: transparent;
+}
+/*-----------------------------footer---------------------------*/
+.uhp{
+	font-size: 18px;
+	background-color: #333;
+	margin-top: 2px;
+	
+	
+}
+.upper a{
+	margin-left: 108px;
+	text-align: center;
+	font-weight: 900;
+	margin-top: 10px;
+    margin-bottom: 10px;
+	
+
+}
+.upper{
+	margin-top: 20px;
+
+}
+.panel{
+	margin-top: -30px;
+}
+.upper a:hover{
+	
+	text-decoration: none;
+	color: white;
+}
+.panel-footer{
+	color: none;
+}
+
+
+/*-----------------------*/
+.grid-ct1{
+	
+	/*margin: -5px;*/
+	
+	
+	
+	/*background-repeat: no-repeat;*/
+	padding: 25px;
+	
+	margin-top: -1px;
+	
+	
+	
+}
+.slist {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	font-size: 11px;
+	font-family: Segoe UI BLACK;
+	text-align: left;
+	margin-top: 18px;
+	margin-left: 80px;
+
+}
+.slist a{
+	color: gray;
+	opacity: 70%;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 15px;
+
+}
+.slist a:hover{
+	color: red;
+	text-decoration: none;
+
+}
+.copyright {
+	margin-top: 60px;
+	margin-left: 80px;
+	
+}
+.copyright a{
+	color: red;
+	font-weight: 600;
+}
+.copyright a:hover{
+	color: red;
+	text-decoration: none;
+
+}
+.ctrn{
+	/*margin-left: 20px;*/
+}
+.sbmt{
+	margin-left: 190px;
+	margin-top: 10px;
+	border-radius: 20px;
+
+}
+
+.modal-body{
+	background-image: url('../images/smokecor.jpg');
+	background-size: cover;
+
+
+}
+.modal-header{
+	background-image: url('../images/mhead1.png');
+	background-size: cover;
+
+}
+form{
+	text-align: center;
+}
+.modal-footer{
+	background-image: url('../images/mhead.png');
+	background-size: cover;
+
+
+}
+.row{
+	width: 50%;
+   
+}
+.gt{
+	margin-left: 90px;
+}
+
+/*-------------overlay------------------------------*/
+.contain{
+	position: relative;
+
+}
+.image{
+	display: block;
+
+	}
+	.contain:hover .image{
+		filter: blur(1px);
+	}
+.overlay{
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s ease;
+	top: 0;
+ 
+  
+  height: 0%;
+  width: 60%;
+  background-color: black;
+  margin-left: 30px;
+  margin-top: 10px;
+  
+ 
+
+}
+.contain:hover .overlay{
+	opacity: 80%;
+	height: 10%;
+	
+}
+.text{
+	position: absolute;
+	top: -15px;
+	left: -60%;
+
+	height: 50%;
+	transform: translateX(150%);
+	color: red;
+	
+
+}
+.text h1,.text1 h1,.text2 h1{
+	font-weight: 900;
+}
+.text1{
+	position: absolute;
+	top: -15px;
+	left: -139%;
+
+	height: 50%;
+	transform: translateX(150%);
+	color: red;
+	opacity: 100%;
+
+
+}
+.text2{
+	color: red;
+	position: absolute;
+	top: -20px;
+	left: 30px;
+}

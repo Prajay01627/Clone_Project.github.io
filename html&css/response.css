@@ -1,0 +1,59 @@
+ul li{
+	float: left;
+	padding: 15px 36px;
+	color: darkgray;
+	font-weight: 900;
+	font-family: Segoe UI BLACK;
+	font-size: 18px;
+
+
+}
+ul li:hover{
+	color: white;
+}
+ul{
+	list-style-type: none;
+	padding: 10px;
+}
+.logo{
+	padding: 30px ;
+	margin-left: -39px;
+	font-weight: 900;
+	font-size: 20px;
+	color:blue;
+
+ 	
+}
+.logo:hover{
+	text-decoration: none;
+	color: blue;
+}
+.cn{
+	color: white;
+}
+
+.img{
+	background-image: url('../images/thar.webp');
+	min-height: 620px;
+}
+
+.text{
+	color: darkgray;
+	margin-top: -15px;
+	font-weight: 600;
+	font-size: 60px;
+	margin-left: 20px;
+	letter-spacing: -2px;
+
+
+
+}
+
+.trt1{
+	margin-top: 430px;
+	margin-left: 620px;
+	color: darkgray;
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+

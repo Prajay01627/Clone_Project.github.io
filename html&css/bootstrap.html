@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap application </title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</head>
+<style type="text/css">
+	.slider{
+
+	overflow: hidden;
+		
+	}
+	.slider figure{
+
+   position: relative;
+   width: 500%;
+   margin: 0;
+   left: 0;
+   animation: 30s slider infinite;
+
+
+	}
+	.slider figure img{
+		width: 20%;
+		
+		float: left;
+
+	}
+	
+	@keyframes slider{
+		0%{
+			left: 0%;
+		}
+		15%{
+			left: 0%;
+		}
+		30%{
+			left: -100%;
+		}
+		45%{
+			left: -100%;
+		}
+		60%{
+			left: -200%;
+		}
+		75%{
+			left: -200%;
+		}
+		90%{
+			left: -300%;
+		}
+		100%{
+			left: -400%;}
+		
+		/*50%{
+			left: -400%;
+		}*/
+	}
+	/*.square{
+ 		width: 300px;
+ 	   height: 300px;
+ 	   border-color: black;
+ 	   border-width: 2px;
+ 	   background-color: red;
+ 	}*/
+ 	/*-------------------------------navbar css --------------------------------
+ 	*/
+
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  /*margin-top: -25px;*/
+  /*padding-top: -10px; */
+  min-width: 100px;
+  background-color: grey;
+  margin-top: 35px;
+
+}
+.dropdown-content a{
+	color: blue;
+	display: block;
+	padding: -3px 2px;
+	text-align : left;
+	float: none;
+	/*margin-top: 10px;*/
+	
+	border: 2px;
+
+
+}
+.dropdown-content {
+	background-color:whitesmoke;
+    padding: -5px;	
+    display: none;
+
+
+ 
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+
+
+
+	
+}
+.dropbutton{
+	display: inline-block;
+	text-align: center;
+	padding: 5px 6px;
+
+
+}
+
+.dropbutton:hover{
+
+}
+
+/*----------------*/
+*{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	/*margin-right: -1px;*/
+}
+.logo{
+ width: 155px;
+ margin-left: 20px;
+
+
+}
+nav ul li a{
+float: left;
+margin: 10px;
+margin-right: 20px;
+margin-left: 30px;
+
+font-family:'Segoe UI Black';
+color: #515253;
+letter-spacing: 2px;
+font-size: 14px;
+text-decoration: none;
+font-weight: normal;
+
+
+}
+nav li{
+	list-style-type: none;
+
+	
+}
+nav{
+	padding-top: 10px;
+	background-color: white;
+	margin-right: 0;
+	margin-bottom: 300px;
+	background-color: yellow;
+}
+ul{
+	margin-left: 230px;
+	margin-top: -45px;
+
+}
+ .buy{
+	color: #2ACAEA;
+
+}
+i{
+	margin-right: 5px;
+}
+/*.divsl{
+	position: relative;
+}*/
+
+.poster img{
+
+margin-top: 30px;
+width: 1263px;
+margin-right: 0px;
+overflow: hidden;
+
+
+
+/*margin-left: -10px;*/
+}
+nav a:hover{
+
+color: #2ACAEA;
+
+}
+
+
+
+	
+
+</style>
+
+
+
+
+
+
+
+<body>
+<h1 style="text-align: center; background-color: green; color: white; border-radius: 20px;">EVERYUTH PRODUCTS</h1>
+
+<div class="container-fluid" style="margin-top:30px">
+	
+ <div class="row">
+	<img src="../images/square1.jpg" class="col-lg-3 col-xs-12">
+	<img src="../images/square3.png"  class="col-lg-6 col-xs-12">
+    <img src="../images/square1.jpg" class="col-lg-3 col-xs-12">
+</div>
+	<div class="row" style="margin-top: 5px;">
+		
+	
+	 <img src="../images/sp4.webp" class="col-lg-3 col-xs-12">
+	<h1 class="col-lg-2 col-xs-2"></h1>
+	<img src="../images/logo.png" class="col-lg-2 col-xs-12" style="margin-top: 90px;">
+	<h1 class="col-lg-2 col-xs-2"></h1>
+	<img src="../images/pwdr.jpg" class="col-lg-3 col-xs-12">
+
+</div>
+   <div class="row" style="margin-top: 10px;">
+
+    <img src="../images/square1.jpg" class="col-lg-3 col-xs-12">
+    <img src="../images/square3.png"  class="col-lg-6 col-xs-12">
+    <img src="../images/square1.jpg" class="col-lg-3 col-xs-12">
+   	
+   </div>
+	
+	
+</div>
+<hr style="border-width: 2px;">
+<hr style="border-width: 2px;">
+
+<h1 style="text-align: center; background-color: green; color: white; border-radius: 20px;" >GRID-CONTAINER</h1>
+<div class="container">
+
+	<div class="row">
+	<img src="../images/square1.jpg" class="col-lg-3 col-xs-12">
+	<img src="../images/square3.png"  class="col-lg-6 col-xs-12">
+    <img src="../images/square1.jpg" class="col-lg-3 col-xs-12">
+</div>
+	<div class="row" style="margin-top: 5px;">
+		
+	
+	 <img src="../images/sp4.webp" class="col-lg-3 col-xs-12">
+	<h1 class="col-lg-2 col-sm-2"></h1>
+	<img src="../images/logo.png" class="col-lg-2 col-xs-12" style="margin-top: 90px;">
+	<h1 class="col-lg-2 col-sm-2"></h1>
+	<img src="../images/pwdr.jpg" class="col-lg-3 col-xs-12">
+
+</div>
+   <div class="row" style="margin-top: 10px;">
+
+    <img src="../images/square1.jpg" class="col-lg-3 col-xs-12">
+    <img src="../images/square3.png"  class="col-lg-6 col-xs-12">
+    <img src="../images/square1.jpg" class="col-lg-3 col-xs-12">
+   	
+   </div>
+	
+	
+</div>
+
+</div>
+
+<div class="slider" >
+<figure>
+	<img src="../images/water.jpg" >
+	<img src="../images/water.jpg" >
+	<img src="../images/water.jpg" >
+	<img src="../images/water.jpg" >
+	
+	<img src="../images/water.jpg">
+</figure>
+
+</div>
+
+
+	<marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
+  <marquee behavior="alternate">
+    Bounce
+  </marquee>
+
+</marquee>
+<h1 style="direction: inherit; font-stretch: ultra-expanded;">This is a directioned text</h1>
+<a style="text-decoration: blink; font-weight: 900; font-size: 50px; font-stretch: ultra-expanded;">HELLO BLINK</a>
+
+
+<figure class="textover">
+	<nav >
+		<a href="mainpage.html"><img src="../images/logo.png" class=logo></img></a>
+		<ul>
+			<li class="dropdown">
+				
+				<a href="Products.html" class="dropbutton">PRODUCTS</a>
+				<div class="dropdown-content">
+                	<a href="#">Drinkware</a>
+                	<a href="#">Food Storage</a>
+                    <a href="#">Kids Range</a>
+                </div>
+
+
+
+
+
+
+			</li>
+
+
+			<li><a href="skinhub.html">SKIN HUB</a></li>
+			<li><a href="knowskin.html">KNOW YOUR SKIN</a></li>
+			<li><a href="https://www.amazon.in/Beauty-Everyuth/s?rh=n%3A1355016031%2Cp_4%3AEveryuth" class="buy"><i class="fa fa-shopping-cart" aria-hidden="true" ></i>BUY ONLINE</a></li>
+    <div>
+	<li><a href="https://www.facebook.com/EveryuthNaturals?fref=ts" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+	<li><a href="https://twitter.com/EveryuthIND?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+	<li><a href="https://www.instagram.com/everyuthnaturals/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+    <li><a href="https://www.youtube.com/channel/UCyCk7qz_hjlc781kP414FJA" target="_blank"><i class="fa fa-youtube fa-lg"></i></a></li>
+    <li><a href="search.html"><i class="fa fa-search fa-lg" style="color:#2ACAEA;"></i></a></li>
+</div>
+
+</ul>
+</nav>
+
+
+
+</body>
+</html>
